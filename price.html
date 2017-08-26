@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+
+    <!-- Bootstrap -->
+   	<link href="css/libs.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="menu">
+		<div class="menu-wrapper">
+			<div class="menu-content-wrap">
+				<a href="index.html" class="logo">
+					<img src="img/logo.png" alt="Logo">
+					<span class="logo-name">iZerrio</span>
+				</a>
+				<nav id="nav">
+					<ul class="no-padding">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+					<li class="active"><a href="price.html">Прайсинг</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+    <div id="price-header">
+    	<header>
+    		<section class="best-push-up price-push-up">
+    			<h1>Прайс на услуги</h1>
+    			<p>Наши цены</p>
+    			<a href="#" class="price-vk">VK</a>
+    			<a href="#" class="price-insta">Instagram</a>
+    			<div class="price-packages">
+					<div class="package-subscribers">
+						<span class="package-top-pic price-package-vk"></span>
+						<img src="img/packages-people.png" alt="Подписчики">
+						<p>Подписчики<span>1к от 70₽</span></p>
+						<a href="#" class="order-button">Заказ</a>
+					</div>
+					<div class="package-likes">
+						<span class="package-top-pic price-package-vk"></span>
+						<img src="img/packages-heart.png" alt="Лайки">
+						<p>Лайки<span>1к от 200₽</span></p>
+						<a href="#" class="order-button">Заказ</a>
+					</div>
+					<div class="clearfix"></div>
+    			</div>
+    		</section>
+    	</header>
+    	<div class="mouse-icon"></div> 
+    </div>
+	<div class="clearfix"></div>
+	<section class="try-now-wrapper">
+		<hr class="pull-left red-line">
+		<div class="clearfix"></div>
+		<div class="try-now">
+			<div class="try-now-info">
+				<h1>Попробуйте сейчас</h1>
+				<p>Авторизируйтесь</p>
+				<a href="#" class="sign-up price-sign-up" data-toggle="modal" data-target="#reg-modal">Регистрация</a><br>
+				<a href="#" class="sign-in price-sign-in" data-toggle="modal" data-target="#auth-modal">Войти</a>
+			</div>
+		</div>
+		<div class="hidden-xs hidden-sm price-mac"></div>
+	</section>
+
+	<footer>
+		<div class="footer-wrapper">
+			<div class="container-fluid">
+				<div class="row footer-top">
+					<div class="col-xs-12 col-md-8">
+						<div class="info">
+							<div class="logo">
+								<img src="img/logo-white.png" alt="Logo">
+								<span class="logo-name">iZerrio</span>
+							</div>
+							<p class="footer-text">iZerr inc. - это объединение, предоставляющее продвижение<br>
+							аккаунтов под ключ, накрутку подписчиков в соц.сети и<br>
+							гарантирующие качество предоставляемых услуг.</p>
+							<form action="" method="POST">
+								<input type="email" name="email" value="E-mail">
+								<button type="submit">Подписаться</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-2">
+						<ul class="footer-nav">
+							<li>Навигация</li>
+							<li><a href="#">Преимущества</a></li>
+							<li><a href="#">Отзывы о нас</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Прайсинг</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>						
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-2">
+						<ul class="footer-details">
+							<li>Подробнее</li>
+							<li><a href="#">Регистрация</a></li>
+							<li><a href="#">Вход на сайт</a></li>
+							<li><a href="#">Поддержка</a></li>
+							<li><a href="#">На главную</a></li>
+							<li><a href="mailto:support@izerrio.pro">support@izerrio.pro</a></li>
+						</ul>						
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<hr class="footer-line">
+				<div class="row footer-copyright">
+					<div class="col-xs-12 col-sm-8">
+						<p>&copy; Izerrio Shop 2017. Все права защищены. </p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<ul class="social pull-right">
+							<li><a href="#"><img src="img/vk-logo.png" alt="VK"></a></li>
+							<li><a href="#"><img src="img/telegram-logo.png" alt="Telegram"></a></li>
+							<li><a href="#"><img src="img/instagram-logo.png" alt="Instagram"></a></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>					
+			</div>
+		</div>
+	</footer>
+	<div id="to-top-wrapper">
+		<a class="hidden-xs" href="#price-header" id="to-top"></a>
+	</div>
+	<div id="reg-modal" class="modal fade" role="dialog">
+	  	<div class="container m-content">
+		    <div class="row">
+		    	<div class="col-md-12 text-center">
+					<button type="button" class="close-modal" data-dismiss="modal"></button>
+				</div>
+				<div class="col-md-12 text-center">
+					<h2>Регистрация</h2>
+				</div>
+				<div class="col-md-12 text-center">
+					<form action="#" method="POST">
+						<div class="col-md-offset-2 col-md-8 text-center">
+							<input type="text" name="login" value="Имя пользователя">
+						</div>
+						<div class="col-md-offset-2 col-md-8 text-center">
+							<input type="email" name="login" value="Email">
+						</div>
+						<div class="col-md-offset-2 col-md-8 text-center">
+							<input type="password" name="password" value="Пароль">
+						</div>
+						<div class="col-md-offset-2 col-md-8 text-center">
+							<button type="submit">Зарегистрироваться</button>
+						</div>
+					</form>
+				</div>
+		    </div>
+	  	</div>
+	</div>
+
+	<div id="auth-modal" class="modal fade" role="dialog">
+	  	<div class="container m-content">
+		    <div class="row">
+		    	<div class="col-md-12 text-center">
+					<button type="button" class="close-modal" data-dismiss="modal"></button>
+				</div>
+				<div class="col-md-12 text-center">
+					<h2>Авторизация</h2>
+				</div>
+				<div class="col-md-12 text-center">
+					<form action="#" method="POST">
+						<div class="col-md-offset-2 col-md-8 text-center">
+							<input type="text" name="login" value="Имя пользователя">
+						</div>
+						<div class="col-md-offset-2 col-md-8 text-center">
+							<input type="password" name="password" value="Пароль">
+						</div>
+						<div class="col-md-offset-2 col-md-8 text-center">
+							<button type="submit">Войти</button>
+						</div>
+					</form>
+				</div>
+		    </div>
+	  	</div>
+	</div>
+
+    <script src="js/libs.min.js"></script>
+	<script src="js/main.js"></script>
+  </body>
+</html>

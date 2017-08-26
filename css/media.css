@@ -1,0 +1,93 @@
+@media screen and (max-width: 567px) {
+  .menu .menu-content-wrap {
+    display: block; }
+  .logo {
+    text-align: center; }
+  #nav ul {
+    float: none !important;
+    text-align: center; }
+    #nav ul li {
+      float: none !important;
+      display: inline-block;
+      margin-right: 10px; }
+  #to-top {
+    display: none; }
+  #wrapper-header header .best-push-up .sign-in {
+    margin-right: 0;
+    margin-bottom: 10px; }
+  #wrapper-header header .best-push-up h1 {
+    font-size: 35px; }
+  #wrapper-header header .best-push-up p {
+    margin-bottom: 60px;
+    font-size: 14px; }
+  #packages-wrapper .packages-block {
+    padding-left: 10px;
+    padding-right: 10px; }
+    #packages-wrapper .packages-block .package-likes, #packages-wrapper .packages-block .package-views, #packages-wrapper .packages-block .package-subscribers {
+      width: 250px; }
+  #nav .logo {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; }
+  .try-now-wrapper .try-now .try-now-info h1 {
+    font-size: 36px; }
+  .price-packages .package-likes, .price-packages .package-subscribers {
+    width: 250px; }
+  .price-vk {
+    margin-right: 0; }
+  footer .footer-wrapper .footer-text {
+    font-size: 16px; }
+  footer .footer-wrapper ul li:first-child {
+    font-size: 16px; }
+  footer .footer-wrapper ul li a {
+    font-size: 14px; } }
+
+@media screen and (max-width: 990px) {
+  footer .footer-wrapper form {
+    margin-bottom: 25px; }
+    footer .footer-wrapper form input {
+      margin-right: 15px;
+      margin-bottom: 15px; } }
+
+@media screen and (max-width: 767px) {
+  footer .footer-wrapper .footer-copyright .social {
+    float: none !important; }
+  .price-packages .package-subscribers {
+    margin-right: 0;
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 900px) {
+  .response > h1, .faq > h1 {
+    line-height: 1; }
+  #packages-wrapper {
+    background: none; }
+    #packages-wrapper .packages-list {
+      margin: 0 auto;
+      text-align: center; }
+      #packages-wrapper .packages-list .package-likes, #packages-wrapper .packages-list .package-views, #packages-wrapper .packages-list .package-subscribers {
+        float: none;
+        margin: 0 auto 15px !important; }
+      #packages-wrapper .packages-list .all-packages-button {
+        margin: 100px auto 0; } }
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  #packages-wrapper .packages-list .package-views {
+    margin-left: 20px; } }
+
+@media screen and (max-width: 1400px) {
+  #packages-wrapper {
+    background-position: -1% center, 120% 180px; } }
+
+@media screen and (min-width: 1920px) {
+  #to-top {
+    right: 20%; } }
+
+@media screen and (min-width: 992px) and (max-width: 1360px) {
+  .try-now-wrapper .price-mac {
+    width: 400px; } }
+
+@media screen and (max-width: 992px) {
+  .try-now-wrapper .try-now-info {
+    margin: 0 auto; } }
