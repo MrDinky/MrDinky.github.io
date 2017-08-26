@@ -18,21 +18,35 @@
   <body>
 	<div class="menu">
 		<div class="menu-wrapper">
-			<div class="menu-content-wrap">
-				<a href="index.html" class="logo">
-					<img src="img/logo.png" alt="Logo">
-					<span class="logo-name">iZerrio</span>
-				</a>
-				<nav id="nav">
-					<ul class="no-padding">
-					<li class="active"><a href="index.html">Главная</a></li>
-					<li><a href="contact.html">Контакты</a></li>
-					<li><a href="price.html">Прайсинг</a></li>
-					</ul>
-				</nav>
-			</div>
+			<nav id="nav"  class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-items-list">
+							<span class="sr-only">Меню</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+				  		</button>
+
+					  	<div class="navbar-brand" href="#">
+						  	<a href="index.html" class="logo">
+								<img src="img/logo.png" alt="Logo">
+								<span class="logo-name">iZerrio</span>
+							</a>
+						</div>
+					</div>
+					<div class="collapse navbar-collapse" id="menu-items-list">
+						<ul class="nav navbar-nav navbar-right">
+					    	<li class="active"><a href="index.html">Главная</a></li>
+							<li><a href="contact.html">Контакты</a></li>
+							<li><a href="price.html">Прайсинг</a></li>
+					  	</ul>
+					</div>
+				</div>
+			</nav>
 		</div>
 	</div>
+	
     <div id="wrapper-header" class="main-header">
     	<header>
     		<section class="best-push-up">
@@ -124,30 +138,24 @@
 			<h1>Отзывы клиентов</h1>
 			<p>Что о нас говорят</p>
 			<div class="response-list">
-			  <div class="response-item">
-			  	<img src="img/face1.jpg" alt="Третьякова Анна">
-			  	<div class="response-blockquote"><span>,,</span></div>
-			  	<p>Все удобно, красиво, а что самое главное всё работает! Рекомендую.</p>
-			  	<h3>Третьякова Анна</h3>
-			  </div>
-			  <div class="response-item">
-			  	<img src="img/face2.jpg" alt="Пушкина Александра">
-			  	<div class="response-blockquote">,,</div>
-			  	<p>Все удобно, красиво, а что самое главное всё работает! Рекомендую.</p>
-			  	<h3>Пушкина Александра</h3>
-			  </div>
-			   <div class="response-item">
-			  	<img src="img/face3.jpg" alt="Пупкин Василий">
-			  	<div class="response-blockquote"><span>,,</span></div>
-			  	<p>Все удобно, красиво, а что самое главное всё работает! Рекомендую.</p>
-			  	<h3>Пупкин Василий</h3>
-			  </div>
-			  <div class="response-item">
-			  	<img src="img/face3.jpg" alt="Онегин Евгений">
-			  	<div class="response-blockquote"><span>,,</span></div>
-			  	<p>Все удобно, красиво, а что самое главное всё работает! Рекомендую.</p>
-			  	<h3>Онегин Евгений</h3>
-			  </div>
+		  		<div class="response-item">
+				  	<img src="img/face1.jpg" alt="Третьякова Анна">
+				  	<div class="response-blockquote"><span>,,</span></div>
+				  	<p>Все удобно, красиво, а что самое главное всё работает! Рекомендую.</p>
+				  	<h3>Третьякова Анна</h3>
+			  	</div>
+		   		<div class="response-item">
+				  	<img src="img/face3.jpg" alt="Пупкин Василий">
+				  	<div class="response-blockquote"><span>,,</span></div>
+				  	<p>Все удобно, красиво, а что самое главное всё работает! Рекомендую.</p>
+				  	<h3>Пупкин Василий</h3>
+			  	</div>
+			  	<div class="response-item">
+				  	<img src="img/face3.jpg" alt="Онегин Евгений">
+				  	<div class="response-blockquote"><span>,,</span></div>
+				  	<p>Все удобно, красиво, а что самое главное всё работает! Рекомендую.</p>
+				  	<h3>Онегин Евгений</h3>
+			  	</div>
 			</div>
 		</div>
 		<div class="arrow-icon"></div>
@@ -229,7 +237,7 @@
 							аккаунтов под ключ, накрутку подписчиков в соц.сети и<br>
 							гарантирующие качество предоставляемых услуг.</p>
 							<form action="" method="POST">
-								<input type="email" name="email" value="E-mail">
+								<input type="email" name="email" placeholder="E-mail">
 								<button type="submit">Подписаться</button>
 							</form>
 						</div>
@@ -289,13 +297,13 @@
 				<div class="col-md-12 text-center">
 					<form action="#" method="POST">
 						<div class="col-md-offset-2 col-md-8 text-center">
-							<input type="text" name="login" value="Имя пользователя">
+							<input type="text" name="login" placeholder="Имя пользователя">
 						</div>
 						<div class="col-md-offset-2 col-md-8 text-center">
-							<input type="email" name="login" value="Email">
+							<input type="email" name="login" placeholder="Email">
 						</div>
 						<div class="col-md-offset-2 col-md-8 text-center">
-							<input type="password" name="password" value="Пароль">
+							<input type="password" name="password" placeholder="Пароль">
 						</div>
 						<div class="col-md-offset-2 col-md-8 text-center">
 							<button type="submit">Зарегистрироваться</button>
@@ -318,10 +326,10 @@
 				<div class="col-md-12 text-center">
 					<form action="#" method="POST">
 						<div class="col-md-offset-2 col-md-8 text-center">
-							<input type="text" name="login" value="Имя пользователя">
+							<input type="text" name="login" placeholder="Имя пользователя">
 						</div>
 						<div class="col-md-offset-2 col-md-8 text-center">
-							<input type="password" name="password" value="Пароль">
+							<input type="password" name="password" placeholder="Пароль">
 						</div>
 						<div class="col-md-offset-2 col-md-8 text-center">
 							<button type="submit">Войти</button>

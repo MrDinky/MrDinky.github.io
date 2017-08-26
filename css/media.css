@@ -1,15 +1,29 @@
+@media screen and (max-width: 345px) {
+  footer .footer-wrapper .info {
+    margin-right: 0; } }
+
 @media screen and (max-width: 567px) {
   .menu .menu-content-wrap {
     display: block; }
   .logo {
     text-align: center; }
-  #nav ul {
-    float: none !important;
-    text-align: center; }
-    #nav ul li {
-      float: none !important;
-      display: inline-block;
-      margin-right: 10px; }
+  footer .footer-wrapper {
+    padding-left: 10px;
+    padding-right: 10px; }
+    footer .footer-wrapper .footer-text {
+      font-size: 15px; }
+    footer .footer-wrapper .footer-nav li:first-child, footer .footer-wrapper .footer-details li:first-child {
+      font-size: 16px; }
+    footer .footer-wrapper .footer-nav li a, footer .footer-wrapper .footer-details li a {
+      font-size: 14px; }
+    footer .footer-wrapper form input {
+      margin-right: 0 !important;
+      padding: 13px; }
+    footer .footer-wrapper .info {
+      margin-right: 0; }
+    footer .footer-wrapper .footer-copyright p {
+      font-size: 15px;
+      line-height: 20px; }
   #to-top {
     display: none; }
   #wrapper-header header .best-push-up .sign-in {
@@ -25,35 +39,48 @@
     padding-right: 10px; }
     #packages-wrapper .packages-block .package-likes, #packages-wrapper .packages-block .package-views, #packages-wrapper .packages-block .package-subscribers {
       width: 250px; }
-  #nav .logo {
-    float: none;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px; }
   .try-now-wrapper .try-now .try-now-info h1 {
     font-size: 36px; }
   .price-packages .package-likes, .price-packages .package-subscribers {
     width: 250px; }
   .price-vk {
-    margin-right: 0; }
-  footer .footer-wrapper .footer-text {
-    font-size: 16px; }
-  footer .footer-wrapper ul li:first-child {
-    font-size: 16px; }
-  footer .footer-wrapper ul li a {
-    font-size: 14px; } }
-
-@media screen and (max-width: 990px) {
-  footer .footer-wrapper form {
-    margin-bottom: 25px; }
-    footer .footer-wrapper form input {
-      margin-right: 15px;
-      margin-bottom: 15px; } }
+    margin-right: 0; } }
 
 @media screen and (max-width: 767px) {
+  .navbar-default {
+    background-color: rgba(0, 0, 0, 0.6); }
+    .navbar-default .navbar-toggle {
+      margin-top: 17px; }
+      .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+        border-color: #ea1844; }
+        .navbar-default .navbar-toggle:focus > .icon-bar, .navbar-default .navbar-toggle:hover > .icon-bar {
+          background-color: #ea1844; }
+  .navbar-brand {
+    height: 70px;
+    padding: 17px 15px; }
+  #nav ul {
+    padding: 0 15px 15px; }
+    #nav ul li {
+      margin-right: 0;
+      margin-bottom: 10px; }
+      #nav ul li::after {
+        bottom: -5px; }
+      #nav ul li:last-child {
+        margin-bottom: 0; }
+  footer .footer-wrapper .footer-line {
+    margin-bottom: 30px; }
+  footer .footer-wrapper .footer-top {
+    margin-bottom: 40px; }
+  footer .footer-wrapper .footer-copyright p {
+    text-align: center;
+    margin-bottom: 15px; }
   footer .footer-wrapper .footer-copyright .social {
+    text-align: center;
     float: none !important; }
+    footer .footer-wrapper .footer-copyright .social li {
+      float: none;
+      display: inline-block; }
   .price-packages .package-subscribers {
     margin-right: 0;
     margin-bottom: 20px; } }
@@ -72,17 +99,16 @@
       #packages-wrapper .packages-list .all-packages-button {
         margin: 100px auto 0; } }
 
+@media screen and (max-width: 990px) {
+  footer .footer-wrapper form {
+    margin-bottom: 25px; }
+    footer .footer-wrapper form input {
+      margin-right: 15px;
+      margin-bottom: 15px; } }
+
 @media screen and (min-width: 900px) and (max-width: 1000px) {
   #packages-wrapper .packages-list .package-views {
     margin-left: 20px; } }
-
-@media screen and (max-width: 1400px) {
-  #packages-wrapper {
-    background-position: -1% center, 120% 180px; } }
-
-@media screen and (min-width: 1920px) {
-  #to-top {
-    right: 20%; } }
 
 @media screen and (min-width: 992px) and (max-width: 1360px) {
   .try-now-wrapper .price-mac {
@@ -91,3 +117,11 @@
 @media screen and (max-width: 992px) {
   .try-now-wrapper .try-now-info {
     margin: 0 auto; } }
+
+@media screen and (max-width: 1400px) {
+  #packages-wrapper {
+    background-position: -1% center, 120% 180px; } }
+
+@media screen and (min-width: 1920px) {
+  #to-top {
+    right: 20%; } }

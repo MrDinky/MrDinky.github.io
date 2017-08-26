@@ -9,8 +9,7 @@ $(document).ready(function () {
 	    	{
 				breakpoint: 557,
 		      	settings: {
-	       			prevArrow: false,
-      				nextArrow: false
+		      		arrows: false
 		      	}
 		    }
 		]

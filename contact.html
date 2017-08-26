@@ -18,19 +18,32 @@
   <body>
 	<div class="menu">
 		<div class="menu-wrapper">
-			<div class="menu-content-wrap">
-				<a href="index.html" class="logo">
-					<img src="img/logo.png" alt="Logo">
-					<span class="logo-name">iZerrio</span>
-				</a>
-				<nav id="nav">
-					<ul class="no-padding">
-					<li><a href="index.html">Главная</a></li>
-					<li class="active"><a href="contact.html">Контакты</a></li>
-					<li><a href="price.html">Прайсинг</a></li>
-					</ul>
-				</nav>
-			</div>
+			<nav id="nav"  class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-items-list">
+							<span class="sr-only">Меню</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+				  		</button>
+
+					  	<div class="navbar-brand" href="#">
+						  	<a href="index.html" class="logo">
+								<img src="img/logo.png" alt="Logo">
+								<span class="logo-name">iZerrio</span>
+							</a>
+						</div>
+					</div>
+					<div class="collapse navbar-collapse" id="menu-items-list">
+						<ul class="nav navbar-nav navbar-right">
+					    	<li><a href="index.html">Главная</a></li>
+							<li class="active"><a href="contact.html">Контакты</a></li>
+							<li><a href="price.html">Прайсинг</a></li>
+					  	</ul>
+					</div>
+				</div>
+			</nav>
 		</div>
 	</div>
     <div id="contact-header">
@@ -42,13 +55,13 @@
     				<div class="container-fluid">
     					<div class="row">
     						<div class="col-md-6">
-    							<input type="text" name="name" value="Имя">
+    							<input type="text" name="name" placeholder="Имя">
 							</div>
     						<div class="col-md-6">
-    							<input type="email" name="email" value="E-mail">
+    							<input type="email" name="email" placeholder="E-mail">
 							</div>
 							<div class="col-md-12">
-								<input type="text" name="theme" value="Тема сообщения">
+								<input type="text" name="theme" placeholder="Тема сообщения">
 							</div>
 							<div class="col-md-12">
 								<textarea name="message" id="" cols="30" rows="5">Текст сообщения</textarea>
@@ -103,7 +116,7 @@
 							аккаунтов под ключ, накрутку подписчиков в соц.сети и<br>
 							гарантирующие качество предоставляемых услуг.</p>
 							<form action="" method="POST">
-								<input type="email" name="email" value="E-mail">
+								<input type="email" name="email" placeholder="E-mail">
 								<button type="submit">Подписаться</button>
 							</form>
 						</div>
